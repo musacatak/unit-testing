@@ -1,8 +1,13 @@
 package com.mockitotutorial.happyhotel.booking;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class RoomService {
 
 	private final Map<Room, Boolean> roomAvailability;
